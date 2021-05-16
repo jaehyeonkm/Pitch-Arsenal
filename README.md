@@ -4,16 +4,25 @@
 <img src="https://github.com/jaehyeonkm/Pitch-Arsenal/blob/master/Images/Dropdown.png" width="100%"></img>
 
 ## Goal:
-In part 1, it uses an 1980s style shallow neural network. In part 2, the network uses more modern techniques such as ReLU activation function and Convolutional Neural Nets(CNN).
+Generate web application that displays the pitch-type signatures of MLB players by frequency, speed, and break. Data ranges from 2008 ~ 2021.
 
 ## Requirements:
 ```
-python3
-pytorch
+python
+dash
 numpy
+pandas
+pybaseball
+plotly.express
 ```
+
+Dataframe `statcast_df` must be downloaded locally using:
+```
+statcast_df = statcast(start_dt = '2008-01-01', end_dt = '2021-05-31')
+```
+
 ## Running:
 For help run:
 ```
-python3 mp6.py -h
+python app.py
 ```
