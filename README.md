@@ -6,6 +6,14 @@
 ## Goal:
 Generate web application that displays the pitch-type signatures of MLB players by frequency, speed, and break. Data ranges from 2008 ~ 2021.
 
+## Dataset
+The data used for this project is provided by the `pybaseball` package, which focuses on baseball data analysis. The package retrieves statcast data, pitching, batting, and team statistics, etc.
+
+pybaseball GitHub page: https://github.com/jldbc/pybaseball
+The README.md on their GitHub repo provides summary of the main functions provided by this package as well as examples.
+
+To understand the variables used in this project, please see the gloassary in https://baseballsavant.mlb.com/csv-docs.
+
 ## Requirements:
 ```
 python
