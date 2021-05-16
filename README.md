@@ -6,6 +6,12 @@
 ## Goal:
 Generate web application that displays the pitch-type signatures of MLB players by frequency, speed, and break. Data ranges from 2008 ~ 2021.
 
+## Files and Directories
+- `Images`: The folder containing pictures used in the project report.
+- `Final Project Report - Jupyter Notebook.pdf`: A pdf file of the project report.
+- `Final Project Report.ipynb`: A ipynb file of the project report.
+- `app.py`: Python Dash code file of the web application.
+
 ## Dataset
 The data used for this project is provided by the `pybaseball` package, which focuses on baseball data analysis. The package retrieves statcast data, pitching, batting, and team statistics, etc.
 
