@@ -19,6 +19,7 @@ plotly.express
 Dataframe `statcast_df` must be downloaded locally using:
 ```
 statcast_df = statcast(start_dt = '2008-01-01', end_dt = '2021-05-31')
+statcast_df.to_csv(r'/Users/.../statcast_df.csv', index = False, header = True)
 ```
 
 ## Running:
